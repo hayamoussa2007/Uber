@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Uber" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Uber" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Uber" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CityGrid.cpp" />
+		<Unit filename="CityGrid.h" />
+		<Unit filename="ConsoleUI.cpp" />
+		<Unit filename="ConsoleUI.h" />
+		<Unit filename="Driver.h" />
+		<Unit filename="DriverMatcher.cpp" />
+		<Unit filename="DriverMatcher.h" />
+		<Unit filename="MultiRidePlanner.cpp" />
+		<Unit filename="MultiRidePlanner.h" />
+		<Unit filename="PathFinder.cpp" />
+		<Unit filename="PathFinder.h" />
+		<Unit filename="Position.h" />
+		<Unit filename="RideRequest.h" />
+		<Unit filename="TestCases.cpp" />
+		<Unit filename="TestCases.h" />
+		<Unit filename="TripCalculator.cpp" />
+		<Unit filename="TripCalculator.h" />
+		<Unit filename="TripResult.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
